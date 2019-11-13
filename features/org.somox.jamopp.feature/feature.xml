@@ -7,9 +7,6 @@
    <description url="http://www.somox.org">
       SoMoX - SOftware MOdel eXtractor
 Reverse Engineering of Component-Based Software Architectures
-Contains 
--org.eclipse.gmt.modisco.java.edit
--org.eclipse.gmt.modisco.omg.kdm.edit
    </description>
 
    <copyright url="http://www.somox.org">
@@ -108,23 +105,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
 
    <requires>
       <import plugin="org.eclipse.core.runtime"/>
-      <import plugin="org.eclipse.gmt.modisco.java"/>
       <import plugin="org.eclipse.emf.edit"/>
-      <import plugin="org.eclipse.gmt.modisco.omg.kdm"/>
    </requires>
-
-   <plugin
-         id="org.eclipse.gmt.modisco.java.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.gmt.modisco.omg.kdm.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
 </feature>

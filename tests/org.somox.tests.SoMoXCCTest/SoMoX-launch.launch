@@ -1,31 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.somox.analyzer.simplemodelanalyzer.runconfig.LaunchSimpleModelAnalyzer">
-<intAttribute key="de.uka.ipd.sdq.workflowengine.debuglevel" value="0"/>
-<stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="${workspace_loc:/org.somox.tests.SoMoXCCTest}/output.log"/>
-<booleanAttribute key="org.somox.analyzer.ReverseEngineerInterfacesNotAssignedToComponent" value="false"/>
-<stringAttribute key="org.somox.analyzer.inputfile" value="org.somox.tests.SoMoXCCTest/org.somox.tests.SoMoXCCTest_java2kdm.xmi"/>
-<stringAttribute key="org.somox.clusteringThresholdDecrement.Compose" value="10"/>
-<stringAttribute key="org.somox.clusteringThresholdDecrement.Merge" value="10"/>
-<stringAttribute key="org.somox.clusteringThresholdMax.Compose" value="90"/>
-<stringAttribute key="org.somox.clusteringThresholdMax.Merge" value="100"/>
-<stringAttribute key="org.somox.clusteringThresholdMin.Compose" value="10"/>
-<stringAttribute key="org.somox.clusteringThresholdMin.Merge" value="40"/>
-<stringAttribute key="org.somox.directoryMapping.weightDirectoryMapping" value="3"/>
-<stringAttribute key="org.somox.dms.weightDMS" value="7"/>
-<stringAttribute key="org.somox.interfaceViolation.weightInterfaceViolationIrrelevant" value="0"/>
-<stringAttribute key="org.somox.interfaceViolation.weightInterfaceViolationRelevant" value="60"/>
-<stringAttribute key="org.somox.metrics.nameResemblance.excludedPrefixes" value=""/>
-<stringAttribute key="org.somox.metrics.nameResemblance.excludedSuffixes" value=""/>
-<stringAttribute key="org.somox.metrics.wildcards" value="§java.util§java.io§java§java.lang§"/>
-<stringAttribute key="org.somox.metrics.wildcards.additional" value=""/>
-<stringAttribute key="org.somox.nameResemblance.weightHighCoupling" value="10"/>
-<stringAttribute key="org.somox.nameResemblance.weightHighNameResemblance" value="40"/>
-<stringAttribute key="org.somox.nameResemblance.weightHighestNameResemblance" value="90"/>
-<stringAttribute key="org.somox.nameResemblance.weightLowCoupling" value="0"/>
-<stringAttribute key="org.somox.nameResemblance.weightLowNameResemblance" value="15"/>
-<stringAttribute key="org.somox.nameResemblance.weightMidNameResemblance" value="25"/>
-<stringAttribute key="org.somox.packageMapping.weightPackageMapping" value="50"/>
-<stringAttribute key="org.somox.project" value="org.somox.tests.SoMoXCCTest"/>
-<stringAttribute key="org.somox.subsystemComponent.weightHighSLAQ" value="25"/>
-<stringAttribute key="org.somox.subsystemComponent.weightLowSLAQ" value="0"/>
+    <intAttribute key="de.uka.ipd.sdq.workflowengine.debuglevel" value="0"/>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="${workspace_loc:/org.somox.tests.SoMoXCCTest}/output.log"/>
+    <booleanAttribute key="org.somox.analyzer.ReverseEngineerInterfacesNotAssignedToComponent" value="true"/>
+    <booleanAttribute key="org.somox.analyzer.ReverseEngineerInternalMethodsAsResourceDemandingInternalBehaviour" value="false"/>
+    <stringAttribute key="org.somox.analyzer.inputfile" value="org.somox.tests.SoMoXCCTest/org.somox.tests.SoMoXCCTest_java2kdm.xmi"/>
+    <stringAttribute key="org.somox.clusteringThresholdDecrement.Compose" value="10"/>
+    <stringAttribute key="org.somox.clusteringThresholdDecrement.Merge" value="10"/>
+    <stringAttribute key="org.somox.clusteringThresholdMax.Compose" value="90"/>
+    <stringAttribute key="org.somox.clusteringThresholdMax.Merge" value="100"/>
+    <stringAttribute key="org.somox.clusteringThresholdMin.Compose" value="10"/>
+    <stringAttribute key="org.somox.clusteringThresholdMin.Merge" value="40"/>
+    <stringAttribute key="org.somox.directoryMapping.weightDirectoryMapping" value="3"/>
+    <stringAttribute key="org.somox.dms.weightDMS" value="7"/>
+    <stringAttribute key="org.somox.interfaceViolation.weightInterfaceViolationIrrelevant" value="0"/>
+    <stringAttribute key="org.somox.interfaceViolation.weightInterfaceViolationRelevant" value="60"/>
+    <stringAttribute key="org.somox.metrics.nameResemblance.excludedPrefixes" value=""/>
+    <stringAttribute key="org.somox.metrics.nameResemblance.excludedSuffixes" value=""/>
+    <stringAttribute key="org.somox.metrics.wildcards" value="java.util§java.lang§java§java.io§"/>
+    <stringAttribute key="org.somox.metrics.wildcards.additional" value=""/>
+    <stringAttribute key="org.somox.nameResemblance.weightHighCoupling" value="10"/>
+    <stringAttribute key="org.somox.nameResemblance.weightHighNameResemblance" value="40"/>
+    <stringAttribute key="org.somox.nameResemblance.weightHighestNameResemblance" value="90"/>
+    <stringAttribute key="org.somox.nameResemblance.weightLowCoupling" value="0"/>
+    <stringAttribute key="org.somox.nameResemblance.weightLowNameResemblance" value="15"/>
+    <stringAttribute key="org.somox.nameResemblance.weightMidNameResemblance" value="25"/>
+    <stringAttribute key="org.somox.outputfile" value="/SoMoX-JaMoPP/model"/>
+    <stringAttribute key="org.somox.packageMapping.weightPackageMapping" value="50"/>
+    <setAttribute key="org.somox.project">
+        <setEntry value="SoMoX-JaMoPP"/>
+        <setEntry value="org.palladiosimulator.pcm.modified"/>
+        <setEntry value="org.somox.analyzer.simplemodelanalyzer"/>
+        <setEntry value="org.somox.analyzer.simplemodelanalyzer.ui"/>
+        <setEntry value="org.somox.core"/>
+        <setEntry value="org.somox.filter"/>
+        <setEntry value="org.somox.gast2seff"/>
+        <setEntry value="org.somox.kdmhelper"/>
+        <setEntry value="org.somox.metrics"/>
+        <setEntry value="org.somox.metrics.dsl"/>
+        <setEntry value="org.somox.metrics.dsl.ui"/>
+        <setEntry value="org.somox.metricvaluesstorage"/>
+        <setEntry value="org.somox.seff2javaast"/>
+        <setEntry value="org.somox.seff2javaast.edit"/>
+        <setEntry value="org.somox.seff2javaast.editor"/>
+        <setEntry value="org.somox.sourcecodedecorator"/>
+        <setEntry value="org.somox.sourcecodedecorator.edit"/>
+        <setEntry value="org.somox.sourcecodedecorator.editor"/>
+        <setEntry value="org.somox.ui"/>
+        <setEntry value="org.somox.util"/>
+    </setAttribute>
+    <stringAttribute key="org.somox.subsystemComponent.weightHighSLAQ" value="25"/>
+    <stringAttribute key="org.somox.subsystemComponent.weightLowSLAQ" value="0"/>
 </launchConfiguration>
