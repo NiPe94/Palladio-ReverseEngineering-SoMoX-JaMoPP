@@ -4,76 +4,7 @@
       label="MetricDSL SDK Feature "
       version="1.0.0.qualifier">
 
-   <requires>
-      <import plugin="org.jgrapht" version="0.9.1" match="compatible"/>
-      <import plugin="org.eclipse.e4.ui.workbench.renderers.swt"/>
-      <import plugin="org.eclipse.e4.ui.css.swt"/>
-      <import plugin="org.eclipse.e4.ui.css.swt.source"/>
-      <import plugin="org.eclipse.e4.ui.css.swt.theme"/>
-      <import plugin="org.eclipse.e4.ui.css.swt.theme.source"/>
-      <import plugin="org.eclipse.e4.ui.workbench.addons.swt"/>
-      <import plugin="org.eclipse.e4.ui.workbench.addons.swt.source"/>
-      <import plugin="org.eclipse.e4.ui.workbench.renderers.swt.source"/>
-      <import plugin="org.eclipse.e4.ui.workbench.swt"/>
-      <import plugin="org.eclipse.e4.ui.workbench.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.edit.swt"/>
-      <import plugin="org.eclipse.emf.ecp.edit.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.ui.view.swt"/>
-      <import plugin="org.eclipse.emf.ecp.ui.view.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.categorization.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.categorization.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.compoundcontrol.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.compoundcontrol.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.core.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.core.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.custom.ui.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.custom.ui.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.group.swt.collapsable"/>
-      <import plugin="org.eclipse.emf.ecp.view.group.swt.collapsable.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.group.swt.embedded"/>
-      <import plugin="org.eclipse.emf.ecp.view.group.swt.embedded.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.group.ui.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.group.ui.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.horizontal.ui.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.horizontal.ui.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.label.ui.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.label.ui.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.stack.ui.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.stack.ui.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.swt.layout"/>
-      <import plugin="org.eclipse.emf.ecp.view.swt.layout.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.table.ui.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.table.ui.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.treemasterdetail.ui.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.treemasterdetail.ui.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.util.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.util.swt.source"/>
-      <import plugin="org.eclipse.emf.ecp.view.vertical.ui.swt"/>
-      <import plugin="org.eclipse.emf.ecp.view.vertical.ui.swt.source"/>
-      <import plugin="org.eclipse.emfforms.swt.control.multiattribute"/>
-      <import plugin="org.eclipse.emfforms.swt.control.multiattribute.source"/>
-      <import plugin="org.eclipse.emfforms.swt.core"/>
-      <import plugin="org.eclipse.emfforms.swt.core.di"/>
-      <import plugin="org.eclipse.emfforms.swt.core.di.extension"/>
-      <import plugin="org.eclipse.emfforms.swt.core.di.extension.source"/>
-      <import plugin="org.eclipse.emfforms.swt.core.di.source"/>
-      <import plugin="org.eclipse.emfforms.swt.core.plugin"/>
-      <import plugin="org.eclipse.emfforms.swt.core.plugin.source"/>
-      <import plugin="org.eclipse.emfforms.swt.core.source"/>
-      <import plugin="org.eclipse.emfforms.swt.reference.table"/>
-      <import plugin="org.eclipse.emfforms.swt.reference.table.source"/>
-      <import plugin="org.eclipse.emfforms.swt.table"/>
-      <import plugin="org.eclipse.emfforms.swt.table.source"/>
-      <import plugin="org.eclipse.emfforms.swt.treemasterdetail"/>
-      <import plugin="org.eclipse.emfforms.swt.treemasterdetail.decorator.validation.default"/>
-      <import plugin="org.eclipse.emfforms.swt.treemasterdetail.decorator.validation.default.source"/>
-      <import plugin="org.eclipse.emfforms.swt.treemasterdetail.source"/>
-      <import plugin="org.eclipse.sirius.ext.swt"/>
-      <import plugin="org.eclipse.swt"/>
-      <import plugin="org.eclipse.swt.win32.win32.x86_64.source"/>
-      <import plugin="org.reuseware.application.swt2"/>
-   </requires>
-
+  
    <plugin
          id="org.somox.metrics.dsl"
          download-size="0"

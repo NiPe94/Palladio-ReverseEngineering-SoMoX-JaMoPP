@@ -106,6 +106,8 @@ This Agreement is governed by the laws of the State of New York and the intellec
    <requires>
       <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.eclipse.emf.edit"/>
+      <import feature="org.eclipse.platform.source" version="4.14.0.v20191210-0610"/>
+      <import feature="org.eclipse.e4.rcp.source" version="4.14.0.v20191204-0601"/>
    </requires>
 
 </feature>

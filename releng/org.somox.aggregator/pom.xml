@@ -18,8 +18,9 @@
     <module>../../bundles/org.somox.filter</module>
     <module>../../bundles/org.somox.gast2seff</module>
     <module>../../bundles/org.somox.kdmhelper</module>
-    <module>../../bundles/org.somox.metrics</module>
+    
     <module>../../bundles/org.somox.metrics.dsl</module>
+    <module>../../bundles/org.somox.metrics</module>
     <module>../../bundles/org.somox.metrics.dsl.ui</module>
     <module>../../bundles/org.somox.metricvaluesstorage</module>
     <module>../../bundles/org.somox.seff2javaast</module>
