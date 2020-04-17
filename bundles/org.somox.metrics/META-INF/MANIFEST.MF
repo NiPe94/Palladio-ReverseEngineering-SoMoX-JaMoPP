@@ -31,4 +31,5 @@ Export-Package: org.somox.metrics,
 Bundle-Vendor: SDQ, KIT + FZI Karlsruhe + EU Q-ImPrESS
 Bundle-ClassPath: lib/jgrapht-0.8.1.jar,
  lib/com.wcohen.secondstring-0.1.jar,
- lib/log4j-1.2.8.jar
+ lib/log4j-1.2.8.jar,
+ .

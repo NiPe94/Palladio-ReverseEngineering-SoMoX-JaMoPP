@@ -14,5 +14,6 @@
 	<classpathentry kind="lib" path="lib/com.wcohen.secondstring-0.1.jar"/>
 	<classpathentry kind="lib" path="lib/jgrapht-0.8.1.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="lib/swt.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
